@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.A. Engineering College - Campus Life</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="logo.jpg" alt="S.A. Engineering College Logo" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><strong><a href="#home">Home</a></strong></li>
+                <li><strong><a href="#about">Campus Life</a></strong></li>
+                <li><strong><a href="#gallery">Gallery</a></strong></li>
+                <li><strong><a href="#register">Register</a></strong></li>
+                <li><strong><a href="#contact">Contact</a></strong></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Parallax -->
+    <section id="home" class="parallax" style="background-image: url('SAEC_SLIDE.jpg');">
+        <div class="overlay">
+           <center>
+                <h1>Welcome to S.A. Engineering College</h1>
+                <p>Experience Excellence in Education and Campus Life</p>
+           </center> 
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+        <h2 class="camp">Campus Life</h2>
+        <div class="campusimg">
+            <img src="campus.jpg" alt="campus">
+        </div>
+        <p>
+            At S.A. Engineering College, we offer a vibrant campus life filled with academic excellence, cultural activities, sports, and innovative learning environments. Our lush green campus and modern facilities foster holistic development for our students.
+        </p>
+    </section>
+
+    <!-- Parallax Section -->
+    <section class="parallax" style="background-image: url('campusimg1.jpg');">
+        <div class="overlay">
+            <h2>Inspiring Infrastructure</h2>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="content-section">
+        <h2 class="camp1">Campus Gallery</h2>
+        <div class="gallery">
+            <img src="lab.jpg" alt="ECE Lab">
+            <img src="library.jpg" alt="Library">
+            <img src="sports.jpg" alt="Sports">
+            <img src="lab1.jpg" alt="CSE Lab">
+        </div>
+        <div class="para">
+            <p>S.A. Engineering College boasts a modern and well-planned infrastructure that supports both academic and extracurricular excellence. The campus features state-of-the-art laboratories, spacious lecture halls, and a fully equipped library with digital resources. Sports facilities, auditoriums, and seminar halls are designed to encourage holistic student development. The lush green surroundings and advanced technological amenities create a perfect environment for learning and innovation.
+            </p>
+        </div>
+        
+    </section>
+
+    <!-- Parallax Section -->
+    <section class="parallax" style="background-image: url('campusimg3.jpg');">
+        <div class="overlay">
+            <h2>Where Innovation Meets Tradition</h2>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register" class="content-section">
+        <h2 class="camp2">Student Registration</h2>
+        <form id="registrationForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" pattern="[0-9]{10}" required>
+
+            <label for="course">Course Interested:</label>
+            <select id="course" required>
+                <option value="">Select a course</option>
+                <option value="cse">Computer Science</option>
+                <option value="ece">Electronics & Communication</option>
+                <option value="mech">Mechanical</option>
+                <option value="civil">Civil</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+        <div class="contact">
+            <h2 class="camp3">Contact Us</h2>
+            <p class="camp3">Email: info@saec.ac.in</p>
+            <p class="camp3">Phone: +91-44-12345678</p>
+            <p class="camp3">Address: S.A. Engineering College, Chennai, India</p>
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 S.A. Engineering College | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
